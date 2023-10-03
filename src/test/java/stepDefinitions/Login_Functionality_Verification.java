@@ -78,9 +78,9 @@ public class Login_Functionality_Verification extends Base{
 	@Then("I will see Customer Home Page")
 	public void i_will_see_Customer_Home_Page() {
 	    String s= getText(By.xpath("//h2[text()='Welcome David']"));
-	    assertEquals("Welcome David",s);
+	    assertEquals("Welcome David.......................",s);
 	    System.out.println(s);
-		int amountSalary = 100000.95;
+		//int amountSalary = 100000.95;
 	}
 
 }
