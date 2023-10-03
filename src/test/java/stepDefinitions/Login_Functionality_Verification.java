@@ -80,6 +80,7 @@ public class Login_Functionality_Verification extends Base{
 	    String s= getText(By.xpath("//h2[text()='Welcome David']"));
 	    assertEquals("Welcome David",s);
 	    System.out.println(s);
+		int amountSalary = 100000.95;
 	}
 
 }
